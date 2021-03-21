@@ -1,0 +1,21 @@
+{
+  "name": "crooze-docxtemplater",
+  "version": "1.0.0",
+  "description": "Supercharged docx/pptx generation",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Crooze",
+  "license": "ISC",
+  "dependencies": {
+    "box-node-sdk": "^1.24.1",
+    "docxtemplater": "^3.19.9",
+    "pizzip": "^3.0.6",
+    "serverless": "^1.83.2"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.33.0",
+    "serverless-plugin-git-variables": "^4.0.0"
+  }
+}
